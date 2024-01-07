@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap')
+/* Asterisk wildcard selector to override default styles added by the browser*/
+/* Header */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* General styles */
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+/* Main Content */
+main{
+    background-color: beige; 
+/* Make main element take up any surplus space to push footer down */
+flex: 1 0 auto;
+}
+/* Footer */
+footer{
+    background-color: blue;
+}
