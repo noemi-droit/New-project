@@ -1,36 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap')
 /* Asterisk wildcard selector to override default styles added by the browser*/
-/* Header */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-/* General styles */
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
-}
-header{
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    
-}
+
 h1{
-    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color:black;
+    font-size: 20px;
+}
+body{
+font-size: 16px;
+font-family: 'Lato', sans-serif;
+}
+.title{
+text-align: center;
+font-size: 3.8rem;
+}
+
+.main navigation{
+background-color: darkgreen;
+padding: 1rem;
+display: flex;
+justify-content: space-between;
+}
+
+
+h2{
+text-align: center;
+font-family: 'Lato', sans-serif;
+color:black;
 }
 /* Main Content */
-main{
-    background-color: beige; 
-/* Make main element take up any surplus space to push footer down */
-flex: 1 0 auto;
+
+h2{
+text-align: center;
+font-family: 'Lato', sans-serif;
+color:black;
 }
+h3{
+
+font-family: 'Lato', sans-serif;
+color:black;
+}
+
 /* Footer */
 footer{
-    background-color: blue;
+background-color: white;
 }
