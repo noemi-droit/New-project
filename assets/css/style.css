@@ -21,37 +21,30 @@ body{
     background-color: seagreen;
 
 }
-
-.main navigation{
-    background-color: darkgreen;
-    padding: 1rem;
+.main navigation {
     display: flex;
     justify-content: space-between;
-    }
-    .main navigation a{
-        color: #fcfbfbef;
-        text-decoration: none;
+.main navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.main navigation a:hover{
+background-color: gold;
+color: #212121
+;
+}
+}
+.hero{
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+ 
 
     }
-h2{
-text-align: center;
-font-family: 'Lato', sans-serif;
-color:rgb(61, 11, 11);
-}
-/* Main Content */
-
-h2{
-text-align: center;
-font-family: 'Lato', sans-serif;
-color:black;
-}
-h3{
-
-font-family: 'Lato', sans-serif;
-color:black;
-}
-
-/* Footer */
-footer{
-background-color: white;
-}
