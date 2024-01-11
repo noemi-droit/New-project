@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap')
-/* Asterisk wildcard selector to override default styles added by the browser*/
 
-h1{
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    color:black;
-    font-size: 20px;
+/* Asterisk wildcard selector to override default styles added by the browser*/
+htlm{
+    font-size: 62.5%;
 }
 body{
-font-size: 16px;
-font-family: 'Lato', sans-serif;
+    font-size: 16px;
 }
+h1{
+    text-align: center;
+    font-size: 3.8rem;
+}
+
 .title{
 text-align: center;
 font-size: 3.8rem;
