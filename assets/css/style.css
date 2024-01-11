@@ -5,29 +5,38 @@ htlm{
 }
 body{
     font-size: 16px;
+    font-family: 'Lato',sans-serif ;
 }
-h1{
+.title{
     text-align: center;
     font-size: 3.8rem;
+
 }
 
-.title{
-text-align: center;
-font-size: 3.8rem;
+.container{
+    width: 120rem;
+    margin:0 auto;
+}
+.nav-bg{
+    background-color: seagreen;
+
 }
 
 .main navigation{
-background-color: darkgreen;
-padding: 1rem;
-display: flex;
-justify-content: space-between;
-}
+    background-color: darkgreen;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    }
+    .main navigation a{
+        color: #fcfbfbef;
+        text-decoration: none;
 
-
+    }
 h2{
 text-align: center;
 font-family: 'Lato', sans-serif;
-color:black;
+color:rgb(61, 11, 11);
 }
 /* Main Content */
 
